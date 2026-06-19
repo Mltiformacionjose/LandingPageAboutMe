@@ -25,30 +25,27 @@ main {
     border: 2px solid #333333;
     background-color: #f0f8ff;
     padding: 20px;
-    /* Este espacio interno evita que la imagen toque las líneas del cuadro */
     border-radius: 8px;
     max-width: 800px;
     margin: 20px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Centra la imagen y el contenido horizontalmente */
 }
 
 /* Estilos para la imagen dentro del cuadro */
 .imagen-certificado {
     max-width: 100%;
-    /* Evita que la imagen se salga del cuadro si es muy grande */
     width: 450px;
-    /* Ajusta este valor al tamaño que prefieras para que se vea bien */
+
     height: auto;
-    /* Mantiene las proporciones originales para que no se deforme */
+    
     border-radius: 6px;
-    /* Opcional: redondea ligeramente las esquinas de la foto */
+
     margin-top: 15px;
-    /* Separa la imagen del texto que tenga arriba */
+
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    /* Opcional: le da una sombra suave para que resalte */
+
 }
 
 main h2 {
@@ -57,12 +54,8 @@ main h2 {
 }
 
 .imagen-perfil {
-    /* Definimos el ancho que queremos (ej. 150 píxeles) */
     width: 150px;
 
-    /* Con 'auto' en la altura, el navegador calcula el alto automáticamente para que no se deforme */
     height: auto;
 
-    /* (Opcional) Si quieres que sea completamente redonda como en las redes sociales */
-    border-radius: 50%;
 }
